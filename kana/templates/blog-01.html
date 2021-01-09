@@ -1,0 +1,147 @@
+{% extends 'index-1.html' %}
+{% load static %}
+<!DOCTYPE html>
+
+{% block content %}
+    <section class="top-banner" style="background: url({% static 'images/blog-01.png' %});">
+        <div class="container">
+            <div class="banner-text text-uppercase my-auto">
+                <h1>
+                    blogging is a
+                    <span>conversation</span>
+                    not a code.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="blog01">
+        <div class="container">
+            <div class="blog01-post">
+                <img src="{% static 'images/blog01-1.png' %}" alt="blog" class="img-fluid">
+                <div class="blog-active">
+                    <div class="blog01-overlay">
+                        <div class="blog01-content">
+                            <div class="blog01-detail">
+                                <div class="blog01-text">
+                                    <span class="blog01-date">march 14,2019</span>
+                                    <span class="blog01-category">photography</span>
+                                    <span class="blog01-postauthor">by admin</span>
+                                </div>
+                                <div class="blog01-heading">
+                                    <h3>No Stress BREAKFAST.</h3>
+                                </div>
+                                <a class="blog01-link" href="blog-single-01.html">explore</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog01-post">
+                <img src="{% static 'images/blog01-2.png' %}" alt="blog" class="img-fluid">
+                <div class="blog01-overlay">
+                    <div class="blog01-content">
+                        <div class="blog01-detail">
+                            <div class="blog01-text">
+                                <span class="blog01-date">march 14,2019</span>
+                                <span class="blog01-category">photography</span>
+                                <span class="blog01-postauthor">by admin</span>
+                            </div>
+                            <div class="blog01-heading">
+                                <h3>No Stress BREAKFAST.</h3>
+                            </div>
+                            <a class="blog01-link" href="blog-single-02.html">explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog01-post">
+                <img src="{% static 'images/blog01-3.png' %}" alt="blog" class="img-fluid">
+                <div class="blog01-overlay">
+                    <div class="blog01-content">
+                        <div class="blog01-detail">
+                            <div class="blog01-text">
+                                <span class="blog01-date">march 14,2019</span>
+                                <span class="blog01-category">photography</span>
+                                <span class="blog01-postauthor">by admin</span>
+                            </div>
+                            <div class="blog01-heading">
+                                <h3>No Stress BREAKFAST.</h3>
+                            </div>
+                            <a class="blog01-link" href="blog-single-03.html">explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog01-post">
+                <img src="{% static 'images/blog01-4.png' %}" alt="blog" class="img-fluid">
+                <div class="blog01-overlay">
+                    <div class="blog01-content">
+                        <div class="blog01-detail">
+                            <div class="blog01-text">
+                                <span class="blog01-date">march 14,2019</span>
+                                <span class="blog01-category">photography</span>
+                                <span class="blog01-postauthor">by admin</span>
+                            </div>
+                            <div class="blog01-heading">
+                                <h3>No Stress BREAKFAST.</h3>
+                            </div>
+                            <a class="blog01-link" href="blog-single-01.html">explore</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-pagination">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item ">
+                            <a class="page-link" href="#">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+
+{% block title %}
+    <footer class="main-footer">
+        <div class="container">
+            <div class="next-page-link">
+                <a href="{% url 'contact' %}">Контакты. </a>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-link">
+                        <ul>
+                             <li>
+                                <a href="#" class="mr-5"><i class="fa fa-instagram " aria-label="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://m.facebook.com/profile.php?id=100042457636321&fref=nf&__tn__=-R" class="mr-5"><i class="fa fa-facebook" aria-label="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="mr-5"><i class="fa fa-whatsapp" aria-label="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="copy-right">
+                <span>
+                  ВСЕ ПРАВА ЗАЩИЩЕНЫ 2021 (C) Kana-Portfolio
+                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+{% endblock %}

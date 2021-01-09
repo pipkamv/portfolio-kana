@@ -1,0 +1,115 @@
+{% extends 'index-1.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+{% block content %}
+    <section class="top-banner" style="background: url({% static 'images/contact-us.png' %});">
+        <div class="container">
+            <div class="banner-text text-uppercase my-auto">
+                <h1>
+                    Просто
+                    <span>Напиши</span><br>
+                    Привет.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="contact-top-description">
+                        <p>
+                            Если вас чем-то зацепили мои работы - скорейщим образом
+                            жду от вас сообщения!)
+                        </p>
+                    </div>
+                    <div class="contact-text pb-2">
+                <span>
+                    Есть место на стажировку?
+                </span>
+                    </div>
+                    <div class="contact-link">
+                        <a href="mailto:me@julianjordan.com">pipkamv@gmail.com</a>
+                    </div>
+                    <div class="contact-text mt-4 pt-2">
+                <span>
+                    Хочется поговорить?
+                </span>
+                        <div class="contact-no">
+                            +996 (507) 11-03-03
+                        </div>
+                <span>
+
+                </span>
+                    </div>
+                    <div class="social-link mb-5">
+                        <a href="https://m.facebook.com/profile.php?id=100042457636321&fref=nf&__tn__=-R" class="mr-5"><i class="fa fa-facebook" aria-label="true"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=iw08bx5eg60i&utm_content=1v7tyr1" class="mr-5"><i class="fa fa-instagram " aria-label="true"></i></a>
+                        <a href="#" class="mr-5"><i class="fa fa-whatsapp" aria-label="true"></i></a>
+                    </div>
+
+                </div>
+                <div class="col-md-5">
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <input type="email" class="form-control-plaintext" placeholder="Email">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control-plaintext" placeholder="Name">
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control-plaintext">
+                                    <option>Budget</option>
+                                </select>
+                            </div>
+                            <textarea class="form-control-plaintext mb-4" placeholder="Message" rows="5"></textarea>
+
+                            <div class="text-right mt-3">
+                                <button type="submit" class="btn btn-primary">Send.</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+
+{% block title %}
+    <footer class="main-footer">
+        <div class="container">
+            <div class="next-page-link">
+                <a href="{% url 'single' %}">Учеба. </a>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-link">
+                        <ul>
+                            <li>
+                                <a href="https://www.instagram.com/invites/contact/?i=iw08bx5eg60i&utm_content=1v7tyr1" class="mr-5"><i class="fa fa-instagram " aria-label="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://m.facebook.com/profile.php?id=100042457636321&fref=nf&__tn__=-R" class="mr-5"><i class="fa fa-facebook" aria-label="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="{% url 'contact' %}" class="mr-5"><i class="fa fa-whatsapp" aria-label="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="copy-right">
+                <span>
+                  ВСЕ ПРАВА ЗАЩИЩЕНЫ 2021 (C) Kana-Portfolio
+                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+{% endblock %}

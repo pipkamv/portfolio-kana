@@ -1,0 +1,526 @@
+/** ***************************************
+	@Author			Gomal Themes
+	@Website		http://gomalthemes.com
+	@Created	10:35 PM Wednesday, Apr. 10, 2019
+
+	TABLE CONTENTS
+	---------------------------
+		01. Responsive Media Queries
+	---------------------------
+***************/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+  .banner-text h1,
+  .work-caraousel-container .carousel-caption h1,
+  .next-page-link a {
+    font-size: 65px;
+  }
+
+  .banner-text {
+    max-width: 665px;
+  }
+
+  .blog01-detail {
+    width: 40%;
+  }
+
+  .blog03 {
+    width: 100%;
+  }
+
+  .tags-content a {
+    padding-right: 25px;
+  }
+
+  .project-heading {
+    font-size: 46px;
+  }
+
+  .work02-project-full {
+    background-attachment: unset;
+  }
+
+  .work02-project-full-content h3 {
+    font-size: 45px;
+  }
+
+  .left-100 {
+    left: 30px;
+  }
+
+  .project-video {
+    right: 70px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .banner-text h1,
+  .work-caraousel-container .carousel-caption h1,
+  .next-page-link a {
+    font-size: 48px;
+  }
+
+  .banner-img-1 {
+    position: unset;
+  }
+
+  .banner-img-3 {
+    display: none;
+  }
+
+  .featured-img {
+    width: 365px;
+  }
+
+  .next-page-link a::before {
+    top: 20px;
+  }
+
+  .error-main span {
+    font-size: 22px;
+  }
+
+  .contact-top-text span {
+    margin-left: 50px;
+  }
+
+  .contact-link,
+  .error-main {
+    padding: 5px 0 5px 50px;
+  }
+
+  .contact-description {
+    margin-left: 50px;
+  }
+
+  .error-main strong {
+    font-size: 75px;
+  }
+
+  .banner-text {
+    max-width: 495px;
+  }
+
+  .featured-container h3 {
+    font-size: 27px;
+  }
+
+  .blog01-detail {
+    width: 55%;
+  }
+
+  .blog03 {
+    width: 100%;
+  }
+
+  .tags-content a {
+    padding-right: 10px;
+  }
+
+  .profile-award-distinctions-links ul span::before {
+    width: 20px;
+    left: 85px;
+  }
+
+  .profile-award-distinctions-links ul {
+    font-size: 14px;
+  }
+
+  .profile-award-distinctions-links a {
+    margin-left: 35px;
+  }
+
+  .profile-award-distinctions-links a:before {
+    top: 30%;
+    left: 125px;
+  }
+
+  .profile-left-sidebar-content a {
+    font-size: 12px;
+  }
+
+  .project-heading,
+  .work02-project-full-content h3 {
+    font-size: 34px;
+  }
+
+  .work02-project-full {
+    background-attachment: unset;
+  }
+
+  .left-100 {
+    left: 30px;
+  }
+
+  .project-video {
+    right: 70px;
+  }
+}
+@media (max-width: 767px) {
+  .main-nav .navbar-collapse,
+  .main-nav-light .navbar-collapse {
+    position: absolute;
+    z-index: 2;
+    background: #161717;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    top: 70px;
+    width: 100%;
+    min-height: 100%;
+    right: -100%;
+    max-width: 300px;
+    transition: all 0.3s ease;
+  }
+
+  .main-nav .navbar-collapse.collapse.show,
+  .main-nav-light .navbar-collapse.collapse.show {
+    right: 0;
+  }
+
+  .main-nav a.nav-link,
+  .main-nav-light a.nav-link {
+    padding: 20px 20px 15px 0 !important;
+    border-bottom: 1px solid #999999;
+    display: block;
+  }
+
+  .main-nav-light a.nav-link:hover,
+  .main-nav-light .nav-item.active a.nav-link {
+    color: #ffffff !important;
+  }
+
+  .main-nav-light .navbar-toggler {
+    background: #161717;
+  }
+
+  .main-nav-light .navbar-brand img {
+    content: url("../images/logo-black.png");
+  }
+
+  .banner-color h1 {
+    color: #ffffff;
+  }
+
+  .banner-img-2,
+  .banner-img-3 {
+    display: none;
+  }
+
+  .banner-text {
+    bottom: 150px;
+  }
+
+  .featured-container h3 {
+    font-size: 30px;
+  }
+
+  .caraouse-img img {
+    height: 200px;
+  }
+
+  .work-caraousel-container .carousel-item.active .caraouse-img:before {
+    height: 80%;
+  }
+
+
+  .work-caraousel-container .carousel-caption h1 {
+    font-size: 40px;
+  }
+
+  .carousel-no {
+    margin-right: 15px;
+  }
+
+  .carousel-no:before {
+    content: unset;
+  }
+
+  .carousel-text ul {
+    margin-left: 0;
+  }
+
+  .carousel-text li {
+    font-size: 15px;
+    padding: 0 10px 0 0;
+  }
+
+  .featured-container .media {
+    flex-direction: column;
+  }
+
+  .featured-container .media-body {
+    padding-left: 0 !important;
+    margin-top: 50px !important;
+  }
+
+  .featured-link {
+    margin-top: 50px;
+  }
+
+  .featured-img {
+    width: 100%;
+  }
+
+  .featured-img img {
+    margin-right: 0 !important;
+  }
+
+  .footer-link ul {
+    justify-content: center;
+  }
+
+  .copy-right {
+    text-align: center;
+  }
+
+  .error-main span {
+    font-size: 28px;
+  }
+
+  .error-top span,
+  .error-description {
+    margin-left: 50px;
+  }
+
+  .error-main {
+    padding: 5px 0 5px 50px;
+  }
+
+  .banner-text {
+    max-width: 300px;
+  }
+
+  .top-banner h1 {
+    font-size: 37px;
+  }
+
+  .blog01-detail {
+    width: 100%;
+  }
+
+  .blog01-heading h3 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  .tags-content a {
+    padding-right: 20px;
+  }
+
+  .blog04-container {
+    margin-bottom: 0;
+  }
+
+  .blog04-container-top {
+    margin-bottom: 80px;
+  }
+
+  .single-blog-quote h5::before {
+    left: 0px;
+  }
+
+  .single-blog-quote h5::after {
+    right: 0px;
+  }
+
+  span.text-capitalize.font-family-lato {
+    font-size: 14px;
+  }
+
+  .single-work-content {
+    margin-bottom: 80px;
+  }
+
+  .profile-left-sidebar-content a {
+    font-size: 16px;
+  }
+
+  .profile-award-distinctions-links ul span::before {
+    width: 50px;
+    left: 100px;
+  }
+
+  .profile-award-distinctions-links ul {
+    font-size: 16px;
+  }
+
+  .profile-award-distinctions-links a {
+    margin-left: 70px;
+  }
+
+  .profile-award-distinctions-links a:before {
+    top: 45%;
+    left: 140px;
+  }
+
+  .profile-left-sidebar-content a {
+    font-size: 12px;
+  }
+
+  .work02-banner-text {
+    left: 20%;
+  }
+
+  .work02-banner-img-1 {
+    margin-left: 0;
+  }
+
+  .work02-img-container .col-md-7 {
+    display: none;
+  }
+
+  .margin-top-200 {
+    margin-top: 0;
+  }
+
+  .project-heading,
+  .work02-project-full-content h3 {
+    font-size: 34px;
+  }
+
+  .left-100 {
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  .project-info {
+    width: 90%;
+  }
+
+  .project-video {
+    right: 10px;
+  }
+}
+
+@media (max-width: 479px) and (min-width: 414px) {
+  .carousel-text li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 413px) and (min-width: 375px) {
+  .next-page-link a::before {
+    top: 16px;
+  }
+
+  .error-main span {
+    font-size: 24px;
+  }
+
+  .error-main strong {
+    font-size: 75px;
+  }
+
+  .blog01-detail {
+    font-size: 12px;
+    width: 80%;
+  }
+}
+
+@media (max-width: 374px) and (min-width: 320px) {
+
+  .main-nav .navbar-collapse,
+  .main-nav-light .navbar-collapse {
+    max-width: 250px;
+  }
+
+  .carousel-text li {
+    font-size: 12px;
+    padding: 0 10px 0 0;
+  }
+
+  .profile-heading h2 {
+    font-size: 26px;
+  }
+
+  .next-page-link a::before {
+    right: -50px;
+    top: 20px;
+  }
+
+  .error-main span {
+    font-size: 18px;
+  }
+
+  .error-main strong {
+    font-size: 65px;
+  }
+
+  .top-banner h1 {
+    font-size: 35px;
+  }
+
+  .blog01-detail {
+    font-size: 12px;
+    width: 90%;
+  }
+
+  .featured-container h3 {
+    font-size: 27px;
+  }
+
+  .blog04-info span {
+    padding-right: 15px;
+  }
+
+  .blog04-heading h3 {
+    font-size: 28px;
+  }
+
+  .single-blog-info span {
+    padding-right: 25px;
+  }
+
+  .single-blog-heading h3 {
+    font-size: 28px;
+  }
+
+  span.text-capitalize.font-family-lato {
+    font-size: 10px;
+  }
+
+  .contact-link a {
+    font-size: 28px;
+  }
+
+  .next-previous-project a {
+    font-size: 18px;
+  }
+
+  .profile-award-distinctions-links ul span::before {
+    width: 20px;
+    left: 85px;
+  }
+
+  .profile-award-distinctions-links ul {
+    font-size: 14px;
+  }
+
+  .profile-award-distinctions-links a {
+    margin-left: 35px;
+  }
+
+  .profile-award-distinctions-links a:before {
+    top: 30%;
+    left: 125px;
+  }
+
+  .work02-banner-text {
+    left: 7%;
+  }
+
+  .project-heading,
+  .work02-project-full-content h3 {
+    font-size: 30px;
+  }
+
+  .left-100 {
+    left: 0px;
+    margin-left: 20px;
+  }
+
+  .project-video {
+    right: 25px;
+  }
+}

@@ -1,0 +1,177 @@
+{% extends 'index-1.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+
+{% block content %}
+    <section class="top-banner" style="background: url({% static 'images/profile.png' %});">
+        <div class="container">
+            <div class="banner-text my-auto">
+                <h1>
+                    MOINOKOV KANAI
+                    <span>BACK-END DEVELOPER,</span>
+                    LIKE TO SING.
+                </h1>
+            </div>
+        </div>
+    </section>
+    <section class="profile">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="profile-left-sidebar mt-3">
+                        <div class="profile-left-sidebar-content">
+                            <a href="#">
+                                <div class="profile-left-location">
+                                    Проект с кнопками регистрации
+                                </div>
+                                <div class="profile-left-date">
+                                    2020
+                                </div>
+                                <div class="profile-left-designation">
+                                    Login, logout, registration.
+                                </div>
+                            </a>
+                        </div>
+                        <div class="profile-left-sidebar-content">
+                            <a href="#">
+                                <div class="profile-left-location">
+                                    Бот на python
+                                </div>
+                                <div class="profile-left-date">
+                                    2020
+                                </div>
+                                <div class="profile-left-designation">
+                                    Телеграм бот - бот фактов
+                                </div>
+                            </a>
+                        </div>
+                        <div class="profile-left-sidebar-content">
+                            <a href="#">
+                                <div class="profile-left-location">
+                                    Первый проект на python
+                                </div>
+                                <div class="profile-left-date">
+                                    2020.
+                                </div>
+                                <div class="profile-left-designation">
+                                    Проект (mysite)
+                                </div>
+                            </a>
+                        </div>
+                        <div class="profile-left-sidebar-content">
+                            <a href="#">
+                                <div class="profile-left-location">
+                                    Первые шаги в программировании
+                                </div>
+                                <div class="profile-left-date">
+                                    2020.
+                                </div>
+                                <div class="profile-left-designation">
+                                    Легкие скрипты, работа с python
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="profile-right-container">
+                        <div class="profile-heading">
+                            <h2>
+                                Привет! Я Кана!
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="profile-description">
+                        <p>
+                            Кана, 17 лет.
+                            Насколько вы уже поняли, я увлекаюсь программированием, а именно back-end
+                            разработкой, пишу код на Python.
+                            Пришел в кодинг не так давно, буквально 3 месяца назад. Начинал как и все,
+                            с обучающих видео на ютуб. Далее мне эта тема зашла, и я начал более глубокое изучение языка.
+                            Записался на курсы, о них подробнее можно прочитать в главе 'Учеба'.
+                            Язык мне давалься довольно легко, и спустя пару недель я написал свой проект, Телеграм бота.
+                        </p>
+                        <p>
+                            Мои первые работы можете увидеть на <a href="https://github.com/pipkamv?tab=repositories">GitHub</a>, а так-же в разделе 'Учеба'.
+                            Какими навыками я владею.
+                            GitHub - Начальный уровень пользователя.
+                            BD (SQL, PostgreSQL) - Начинающий уровень пользователя.
+                            HTML - средний уровень пользователя, CSS - начинащий уровень пользователя.
+                            OS - Linux/Ubuntu, средний уровень пользователя.
+                            Python - (3.8.5, 3.9), средний уровень пользователя.
+                            Parsing - Средний уровень пользователя.
+                            Bash - средний уровень пользователя.
+                            Так же умение гуглить.
+                            Как-бы мои начинания не давали сбои в моем коде, мои желания исправляться,
+                            учиться новому, работать над ошибками - создают меня будующего!
+                            Я убежден в своих словах, и готов нарабатывать навыки!
+                        </p>
+                    </div>
+                    <div class="profile-links">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <ul>
+                                    <span>Что я делаю.</span>
+                                    <li><a href="#">Программирую на python</a></li>
+                                    <li><a href="#">Занимаюсь web разработкой</a></li>
+                                    <li><a href="#">Учусь по книжкам</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                            </div>
+                            <div class="col-md-4">
+                                <ul>
+                                    <span>Где меня найти.</span>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="{% url 'contact' %}">telegram</a></li>
+                                    <li><a href="#">instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+
+
+{% block title %}
+    <footer class="main-footer">
+        <div class="container">
+            <div class="next-page-link">
+                <a href="{% url 'blog' %}">Блог. </a>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-link">
+                        <ul>
+                             <li>
+                                <a href="#" class="mr-5"><i class="fa fa-instagram " aria-label="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://m.facebook.com/profile.php?id=100042457636321&fref=nf&__tn__=-R" class="mr-5"><i class="fa fa-facebook" aria-label="true"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="mr-5"><i class="fa fa-whatsapp" aria-label="true"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="copy-right">
+                <span>
+                  ВСЕ ПРАВА ЗАЩИЩЕНЫ 2021 (C) Kana-Portfolio
+                </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+{% endblock %}
+
+
+
+
